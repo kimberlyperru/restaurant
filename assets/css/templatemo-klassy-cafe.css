@@ -1668,3 +1668,22 @@ responsive
     opacity: 0;
   }
 }
+
+
+.chef-item .thumb img {
+  width: 100%;          /* makes all images fill their column */
+  height: 300px;        /* fixed height so they look equal */
+  object-fit: cover;    /* crops the image neatly instead of stretching */
+  border-radius: 10px;  /* optional: smooth corners */
+  display: block;       /* removes extra spacing under images */
+  margin: 0 auto;       /* keeps them centered */
+}
+
+.menu-img {
+  width: 100%;          /* make each image fill its column */
+  height: 250px;        /* set equal height */
+  object-fit: cover;    /* crop neatly instead of stretching */
+  border-radius: 10px;  /* optional rounded corners */
+  display: block;
+  margin: 0 auto;
+}
