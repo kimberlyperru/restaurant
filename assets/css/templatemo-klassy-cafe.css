@@ -929,13 +929,16 @@ menu
   background-image: url(../images/menu-item-02.jpg);
 }
 .card3 {
-  background-image: url(../images/menu-item-03.jpg);
+  background-image: url(../images/toast.jpeg);
 }
 .card4 {
-  background-image: url(../images/menu-item-04.jpg);
+  background-image: url(../images/crepe.jpeg);
 }
 .card5 {
-  background-image: url(../images/menu-item-05.jpg);
+  background-image: url(../images/Garlic\ Bread.jpeg);
+}
+.card6 {
+  background-image: url(../images/waffles.jpeg);
 }
 
 .info {
@@ -1687,3 +1690,11 @@ responsive
   display: block;
   margin: 0 auto;
 }
+
+.logo {
+  display: block;       /* Makes it easier to control */
+  margin: 0 auto;       /* Centers the image horizontally */
+  width: 150px;         /* Adjust size */
+  height: 80px;         /* Keeps proportions */
+}
+

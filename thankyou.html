@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background: #fb5849;
+    }
+    h1 {
+      color: #f4d8c7;
+    }
+  </style>
+   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <script>
+    // Auto-launch confetti when page loads
+    window.onload = () => {
+      // Run multiple bursts for effect
+      confetti({
+        particleCount: 120,
+        spread: 80,
+        origin: { y: 0.6 }
+      });
+      setTimeout(() => {
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 }
+        });
+      }, 500);
+      setTimeout(() => {
+        confetti({
+          particleCount: 80,
+          spread: 100,
+          origin: { y: 0.6 }
+        });
+      }, 1000);
+    };
+  </script>
+</head>
+<body>
+  <h1>🎉 Thank You for Reserving!</h1>
+  <p>We’ve received your reservation and will confirm shortly.</p>
+  <a href="index.html" >Back to Home</a>
+</body>
+</html>
