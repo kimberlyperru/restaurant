@@ -1695,6 +1695,6 @@ responsive
   display: block;       /* Makes it easier to control */
   margin: 0 auto;       /* Centers the image horizontally */
   width: 150px;         /* Adjust size */
-  height: 80px;         /* Keeps proportions */
+  height: 100px;         /* Keeps proportions */
 }
 
